@@ -1,0 +1,1 @@
+inicio de estudos para fazer pagina estrala huevos
