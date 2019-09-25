@@ -1,61 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>estrala huveos</title>
+        <title>Hello Pizza</title>
+        <meta charset="UTF-8" />
     </head>
     <body>
-        <h1>Cabeçalho1</h1>
-        <p>Holá mundo paragrafo 1</p>
-        <p>ovo vermelho 3,50 paragrafo 2</p>
-        <p>teste configuracao</p>
+        <header>
+            <h1>Hello Pizza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sabores</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <ul>
+                <li>Qualidade</li>
+                <li>Sabor</li>
+                <li>Praticidade</li>
+                <li>Agilidade</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Sabores</h2>
+            <p>Conheça os nossos <strong>5 sabores </strong> de pizza!</p>
+            <img src="img/sabores-pizzas.png" />
+            <table>
+                <tr>
+                    <th>Pizzas</th>
+                    <th>Queijo e Molho</th>
+                    <th>Salada</th>
+                    <th>Carne</th>
+                    <th>Azeito/Champignon</th>
+                </tr>
+                <tr>
+                    <td>Mozzarella</td>
+                    <td rowspan="6">Sim</td>
+                    <td>Não</td>
+                    <td>Não</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>Calabresa</td>
+                    <td>Não</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Pepperoni</td>
+                    <td>Não</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Marguerita</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Portuguesa</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Alho</td>
+                    <td>Não</td>
+                    <td>Não</td>
+                    <td>Não</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="post">
+                <label>Nome:</label>
+                <input type="text" name="nome" />
+                <label>E-Mail:</label>
+                <input type="text" name="email" />
+                <label>Mensagem:</label>
+                <textarea name="mensagem"></textarea>
+                <input type="submit" value="Enviar Mensagem" />
+            </form>
+        </section>
+        <footer>
+            <a href="#" id="logo-hellopizza">Hello Pizza</a>
+            <p>Todos os direitos reservados &copy; 2018</p>
+        </footer>
     </body>
-    <section>
-        <h2>Produtos</h2>
-        <p>Ovo <strong>vermelho</strong></p>
-        <p>Ovo <em>branco</em></p>
-
-        <h2>exemplos de formatacao para utilizar</h2>
-        <i>itálico</i>
-        <b>negrito</b>
-        <em>texto enfático</em>
-        <strong>texto importante</strong>
-
-        <h2>exemplos de citações</h2>
-        <q>Uma citação curta pode ser incluída usando uma tag de formatação para isto.</q>
-        <blockquote cite="http://www.wikipedia.com">
-            Ou você pode incluir uma citação mais longa e também colocar a referência
-            externa indicando da onde aquela citação veio. Note como o formato
-            do conteúdo desta tag se diferencia do formato apresentado pela citação
-            menor anterior. Isto ocorre pois o blockquote é um elemento blocado,
-            que ocupa toda a largura da tela.
-        </blockquote>
-
-        <h2>exemplos de listas</h2>
-        <h3>lista não ordenadas</h3>
-        <ul>
-            <li>item1</li>
-            <li>item2</li>
-            <li>item3</li>
-        </ul>
-        <h3>listas ordenadas</h3>
-        <ol>
-            <li>item1</li>
-            <li>item2</li>
-            <li>item3</li>
-        </ol>
-        <h3>Listas de Descrição</h3>
-        <dl>
-            <dt>primero termo</dt>
-                <dd>significado primeiro termo</dd>
-            <dt>segundo termo</dt>
-                <dd>significado segundo termo</dd>
-        </dl>
-    </section>
-    <section>
-        <h2>Contatos encomende seu ovos</h2>
-    </section>
-    <footer>
-        <p>Bem vindo ao site estrala huevos</p>
-    </footer>
 </html>
