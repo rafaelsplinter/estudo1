@@ -77,9 +77,35 @@
         <p><a href="#paragrafoFooter">links interno com referencia, va para inicio</a></p>
         <p><a href="index.html" target="_self">
                 Link será aberto no mesmo frame em que foi clicado</a></p>
+        <h3>imagens</h3>
+        <figure>
+            <img src="img/logo-helloPizza.png" alt="teste logo" width="200" height="200"/>
+            <!-- <figcaption>Descrição da imagem</figcaption -->
+        </figure>
+        <figure>
+                <figure>
+                    <figcaption>Folha Alaranjada</figcaption>
+                    <img src="img/logo-helloPizza.png" />
+                </figure>
+                <figure>
+                    <figcaption>Pôr-do-sol por trás da árvore</figcaption>
+                    <img src="img/logo-helloPizza.png" />
+                </figure>
+                <figure>
+                    <figcaption>Uma bela foto do Monte Everest</figcaption>
+                    <img src="img/logo-helloPizza.png" />
+                </figure>
+            </figure>
     </section>
     <section>
         <h2>Contatos encomende seu ovos</h2>
+        <h3>formularios</h3>
+        <form action="algo/teste.php" method="GET">
+            <label>teste1</label>
+            <input type="text" name="teste" placeholder="digite aki"/>
+            <textarea name="testemensagem" id="1" cols="30" rows="10">?????</textarea>
+            <input type="submit" name="testeenvio" value="vai"/>
+        </form>
     </section>
     <footer>
         <p>Bem vindo ao site estrala huevos</p>
