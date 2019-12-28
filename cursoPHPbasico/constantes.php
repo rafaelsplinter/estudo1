@@ -22,4 +22,11 @@ echo "<br>";
 
 echo __FILE__;
 echo "<br>";
+
+unset($vetor);
+//$vetor = array(1 => "Alemanha", 2 => "Italia", 3 => "França", "testando" => 1);
+$vetorPaises = array("Alemanha", "Italia", "França", "Noruega");
+var_dump($vetorPaises[1]);
+echo $vetorPaises[1];
+echo "<br>";
 ?>
