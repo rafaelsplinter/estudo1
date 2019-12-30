@@ -55,12 +55,83 @@ function comparar($digitos, $inicio, $fim){
     $valorBase = 3;
 
     while ($valorInicial <= LIMITE){
-        $resultado = $valorInicial %= $valorBase;
+        $resultado = $valorInicial % $valorBase;
 
         if ($resultado == 0){
             echo "$valorInicial é múltiplo de $valorBase\n";
+            echo "<br>";
         }
         $valorInicial++;
     }
 
+
+        //quarto ex:-----
+
+        function calculaDesconto ($rendimento){
+ 
+            $desconto = 0;
+         
+            if ($rendimento >= 1903.99 && $rendimento <= 2826.65) {
+         
+                $desconto = $rendimento *= 0.075;
+
+                echo "1";
+                echo "<br>";
+                 
+            } elseif ($rendimento >= 2826.66 && $rendimento <= 3751.05) {
+             
+                $desconto = $rendimento *= 0.15;
+
+                echo "2";
+                echo "<br>";
+         
+            } elseif ($rendimento >= 3751.06 && $rendimento <= 4664.68) {
+             
+                $desconto = $rendimento *= 0.225;
+
+                echo "3";
+                echo "<br>";
+         
+            } elseif ( $rendimento > 4664.68) {
+             
+                $desconto = $rendimento *= 0.275;
+
+                echo "4";
+                echo "<br>";
+         
+            }
+         
+            return $desconto;
+         
+        }
+         
+        $salario = 3826.99;
+         
+        echo "O desconto será " . calculaDesconto($salario);
+
+        echo "<br>";
+
+
+        //quinto ex:-----
+
+        $gostaFront = false;
+        $gostaBack = true;
+
+        if ($gostaFront && $gostaBack) {
+     
+            echo "Sou Fullstack";
+         
+        } elseif ($gostaBack && !$gostaFront) {
+         
+            echo "Sou de Back-end";
+         
+        } elseif ($gostaFront && !$gostaBack) {
+             
+            echo "Sou de Front-end";
+         
+        } else {
+         
+            echo "Não gosta de nada";
+         
+        }
 ?>
