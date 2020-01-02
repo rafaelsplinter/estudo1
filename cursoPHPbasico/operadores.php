@@ -95,7 +95,9 @@ echo "<br>";
 /*
 Operadores de atribuição
 
-No caso de operadores de atribuição, o PHP fornece um operador básico e diversos derivados, estes sempre retornam um valor atribuído. Nos operadores derivados de atribuição, a operação é feita entre os dois operandos, sendo atribuído o resultado ao primeiro. Veja a seguir os operadores de atribuição:
+No caso de operadores de atribuição, o PHP fornece um operador básico e diversos derivados, 
+estes sempre retornam um valor atribuído. Nos operadores derivados de atribuição, a operação é feita entre os dois operandos, 
+sendo atribuído o resultado ao primeiro. Veja a seguir os operadores de atribuição:
 
     Atribuição simples(=)
     Atribuição com adição (+=)
